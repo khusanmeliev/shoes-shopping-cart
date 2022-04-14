@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.shop {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop .box {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.shop ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shop ul li {
+  margin: 20px;
+  list-style-type: none;
+}
+.shop .box .img-part {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop .box .img-part img {
+  width: 100%;
+  height: 100%;
+}
+.shop .box .name-part {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop .box .btn {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

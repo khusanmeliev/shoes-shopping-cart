@@ -1,0 +1,230 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.cart {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cart ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart ul li .box {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+  border: 1px solid black;
+}
+.cart .box .right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .box .right .img-part {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .box .right .img-part img {
+  width: 80%;
+  height: 80%;
+}
+
+.cart .box .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cart .box .left .top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cart .box .left .top .title {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.cart .box .left .middle {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cart .box .left .middle .text {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.cart .box .left .bottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cart .box .left .add {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cart .box .left .add button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  margin: 0px 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .cart {
+    width: 100%;
+    height: auto;
+  }
+  .cart ul {
+    width: 100%;
+    height: 100%;
+  }
+  .cart ul li .box {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart ul li .box .right {
+    width: 80%;
+    height: 30%;
+  }
+
+  .cart ul li .box .middle {
+    text-align: center;
+  }
+  .cart ul li .box .add {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .cart {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart ul {
+    width: 100%;
+    height: 100%;
+  }
+  .cart ul li {
+    width: 130%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart ul li .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart ul li .box .right {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart ul li .box .right .img-part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart ul li .box .right .img-part img {
+    width: 90%;
+    height: 50%;
+  }
+  .cart .box .left {
+    width: 100%;
+    height: auto;
+  }
+  .cart .box .left .top {
+    width: 100%;
+    height: 100%;
+  }
+  .cart .box .left .top .title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart .box .left .middle {
+    width: 90%;
+    height: 100%;
+  }
+  .cart .box .left .middle .text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .cart .box .left .middle .text h1 {
+    font-size: 15px;
+  }
+  .cart .box .left .bottom {
+    width: 100%;
+    height: 100%;
+  }
+  .cart .box .left .bottom .add {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
